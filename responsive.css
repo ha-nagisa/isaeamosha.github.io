@@ -1,0 +1,979 @@
+@media screen and (max-width: 768px) { 
+  header {
+    height:60px;
+    align-content:flex-start;
+  }
+  .container {
+    margin-right:0;
+    margin-left:2px;
+  }
+  .header-left {
+    float:left;
+    position:relative;
+    /* flex-direction:column-reverse;
+    align-content:flex-start;
+    position:relative; */
+  }
+  .headerleft-2 {
+    display:block;
+  }
+  .headerleft-2 p {
+    margin-top:5px;
+    padding:0;
+    font-size:5px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    letter-spacing:1px;
+  }
+  .headerleft-2 img {
+    margin:0;
+    padding:0;
+  }
+  .header-logo {
+    display:none;
+  }
+  .header-text {
+    display:none;
+  }
+  .header-text p{
+    font-size:5px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    letter-spacing:1px;
+  }
+  .header-right {
+    height:60px;
+    width:75px;
+    border-radius:0;
+    position:relative;
+  }
+  .inquiry-here {
+    display:none;
+  }
+  .inquiry-there {
+    height:60px;
+    text-align:center;
+    display:flex;
+    
+    align-content:center;
+    justify-content:center;
+  }
+  .inquiry-there img,.inquiry-there a{
+    margin:0;
+    padding:0;
+  }
+  .inquiry-there a {
+    position:absolute;
+    top:25px;
+    left:15px;
+  }
+  .inquiry-there img {
+    display:block;
+    position:absolute;
+    top:7px;
+    left:27px;
+    height:25px;
+    width:20px;
+  }
+  .header-text {
+    margin:0;
+    padding:0;
+  }
+  .header-text p {
+    margin:0;
+    padding:0;
+  }
+  .header-left img {
+    display:inline-block;
+    /* position:absolute;
+    left:0;
+    top:10px; */
+    height:30px;
+    width:85px;
+    display:inline-block;
+  }
+
+
+  .first {
+    height:370px;
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/mainsp.jpg);
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+  }
+  .container-2 {
+    padding-top:80px;
+  }
+  .container-2 img {
+
+  }
+  .container-2 h1 {
+    font-family:"FureCode Nerd Font";
+    font-size:16px;
+  }
+  .container-2 p {
+    font-family:"FureCode Nerd Font";
+    font-size:15px;
+  }
+
+
+  .second {
+    height:550px;
+  }
+  .container-3 {
+    padding-top:1px;
+  }
+  .second-white-font {
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:0;
+  }
+  .caution {
+    height:20px;
+    width:380px;
+    font-size:14px;
+    font-weight:600;
+  }
+  .second-text-2 {
+    margin-bottom:10px;
+    height:95px;
+  }
+  .second-text-2 a{
+    margin-top:20px;
+    font-size:20px;
+    line-height:95px;
+    line-height: initial;
+  }
+  .second-text-2 br {
+    display:block;
+    line-height: initial;
+  }
+  .second-white-font br {
+    display:block;
+  }
+  .second-text-3-p {
+    margin:0;
+    padding:0;
+  }
+
+
+  .third {
+    height:660px;
+  }
+  .third-text-1 {
+    font-size:12px;
+    font-weight:600;
+    width:90%;
+  }
+  .third-text-1 {
+    line-height:35px;
+  }
+  .third-text-1::before, .third-text-1::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .third-br {
+    display:block;
+  }
+  .third-text-2-ka {
+    display:block;
+  }
+  .third-text-2 p {
+    font-size:15px;
+  font-weight:300;
+  }
+
+  .fouth {
+    height:620px;
+  }
+  .fouth-circle {
+    position:absolute;
+    top:-30px; 
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+  }
+  .fouth-circle p{
+    letter-spacing:3px;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    font-size:12px;
+    font-weight:400;
+  }
+  .fouth-text {
+    padding-top:60px;
+  }
+  .fouth-text-title {
+    height:90px;
+    letter-spacing:2px;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:5px;
+  }
+  .fouth-text-title::before, .fouth-text-title::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .fouth-text-title p {
+    margin-bottom:10px;
+  }
+  .fouth-text-letter {
+    letter-spacing: 3px;
+    font-family:"Hiragino Kaku Gothic Pro";
+    font-size:15px;
+    font-weight:600;
+  }
+  .fouth-box {
+    padding-top:5px;
+
+  }
+  .fouth-box-text {
+    font-size:15px;
+    font-weight:600;
+  }
+  .fouth-box-list div{
+    margin:10px;
+  }
+  .fouth-box-list img{
+    width:35%;
+  }
+
+
+  .fifth {
+    height:605px;
+    padding-top:30px;
+    letter-spacing:2px;
+  }
+  .fifth-text-large {
+    font-size:18px;
+    font-weight:600;
+  }
+  .fifth-text-small {
+    font-size:13px;
+    font-weight:600;
+  }
+  .fifth-cards {
+   margin-top:30px;
+  }
+  .fifth-cards-container {
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+  }
+  .fifth-card {
+    width:100%;
+    height:120px;
+    margin-bottom:15px;
+  }
+  .fifth-card-heading {
+    margin-top:15px;
+  }
+  .fifth-card-text {
+    font-size:12px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+
+  .sixth {
+    height:100px;
+    font-size:12px;
+    font-weight:600;
+    text-align:center;
+    letter-spacing:2px;
+  }
+  .sixth div {
+    padding-top:10px;
+  }
+
+  .seventh {
+    height:310px;
+    padding-top:30px;
+    letter-spacing:3px;
+  }
+  .seventh h2 {
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:40px;
+  }
+  .seventh-p-first {
+    font-size:15px;
+    font-weight:300;
+    margin-bottom:30px;
+  }
+  .seventh-p-second {
+    font-size:12px;
+    font-weight:600;
+  }
+  .seventh-imgs {
+    max-width:80%;
+    margin-bottom:10px;
+  }
+  .seventh-img img{
+    width:80%;
+  }
+
+  .eighth {
+    height:1130px;
+    letter-spacing:3px;
+  }
+  .eighth-title {
+    font-family:"Hiragino Kaku Gothic Pro";
+    font-size:15px;
+    font-weight:600;
+    position: relative;
+    padding: 5px;
+  }
+  .eighth-title::before, .eighth-title::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .eighth-title-top {
+    font-size:15px;
+    font-weight:400;
+    margin-bottom:20px;
+  }
+  .eighth-title-bottom {
+    margin-top:20px;
+  }
+  .eighth-lists-container {
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+  }
+  .eighth-lists {
+    text-align:center;
+    height:640px;
+  }
+  .eighth-list {
+    width:100%;
+    margin-bottom:20px;
+  }
+  .eighth-list img {
+    width:100%;
+    height:120px;
+  }
+  .eighth-list p,.eighth-list h2 {
+    width:100%;
+  }
+  .eighth-list h2 {
+    font-size:12px;
+    font-weight:400;
+  }
+  .eighth-list p {
+    font-size:12px;
+    font-weight:400;
+  }
+  .eighth-box {
+    padding-top:0px;
+    height:180px;
+    margin-top:15px;
+  }
+  .eighth-box h2 {
+    font-size:18px;
+    font-weight:600;
+  }
+  .eighth-box-top {
+    font-size:15px;
+    font-weight:600;
+  }
+  .eighth-box-bottom {
+    font-size:10px;
+    letter-spacing:0px;
+  }
+
+  .eighth-footer {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:12px;
+    font-weight:300;
+    letter-spacing:0px;
+  }
+  .eighth-footer p{
+    display:inline-block;
+    margin:0 auto;
+    width:98%;
+   }
+   .eigthth-kesu {
+     display:none;
+   }
+
+
+   .nineth {
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/teacherbgsp.jpg);
+    padding-top:55px;
+    height:1450px;
+   }
+   .nineth h2 {
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:40px;
+  }
+  .fa-id-card {
+    font-size:20px;
+    margin-right:3px;
+  }
+  .nineth-first-p {
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:40px;
+    font-family: "Hiragino Kaku Gothic Pro";
+    letter-spacing:3px;
+  }
+  .nineth-box-1,.nineth-box-2 {
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    margin:0 auto;
+    width:780px;
+    max-width:95%;
+    letter-spacing:2px;
+  }
+  .nineth-box-1-1,.nineth-box-1-2,.nineth-box-2-1,.nineth-box-2-2 {
+    width:100%;
+    text-align:center;
+    margin-bottom:30px;
+  }
+  .nineth-square {
+    padding-top:25px;
+    height:170px;
+    font-size:12px;
+  }
+  .nineth-square-2 {
+    padding-top:35px;
+    height:180px;
+    font-size:12px;
+    font-weight:300;
+  }
+  .nineth-square-text {
+    display:inline-block;
+    margin:0 auto;
+    width:95%;
+    text-align:left;
+  }
+  .nineth-photo {
+    height:120px;
+    width:120px;
+    margin-bottom:-40px;
+  }
+
+
+  .tenth:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color:#EBB94D transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  } 
+  .tenth-container {
+    height:210px;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+  }
+  .tenth-circle{
+    width:60px;
+    height:60px;
+    line-height:40px;
+    font-size:12px;
+    letter-spacing:2px;
+  }
+  .tenth-title  {
+    height:100px;
+    width:860px;
+    max-width:90%;
+    padding:10px;
+    font-size:14px;
+    position: relative;
+  }
+  .tenth-title::before, .tenth-title::after {
+    width: 30px;
+    height: 30px;
+  }
+  .tenth-title  p {
+    line-height:40px;
+  }
+
+
+  .eleventh {
+    height:800px;
+    padding-top:10px;
+  }
+  .eleventh-title h2 {
+    margin-bottom:10px;
+    padding:0;
+    font-size:18px;
+  }
+  .eleventh-title-top {
+    margin:0;
+    padding-bottom:30px;
+    font-size:12px;
+  }
+  .eleventh-title-bottom {
+    margin-bottom:30px;
+    padding:0;
+    font-size:12px;
+  }
+  .eleventh-box img {
+    width:100%;
+    border: solid 2px #EBB94D;
+    
+  }
+  .eleventh-box-img  {
+    width:100%;
+    margin-right:20px;
+  }
+  .eleventh-box-p-top {
+    font-size:18px;
+    font-family:"Hiragino Kaku Gothic Pro";
+    font-weight:300;
+    font-style:italic;
+    color:#777777;
+    letter-spacing:2px;
+    margin:0;
+    padding:0;
+  }
+  .eleventh-box-p-botto {
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:2px;
+    font-family:"Hiragino Kaku Gothic Pro";
+    font-style:italic;
+    color:#777777;
+    display:inline-block;
+  }
+
+
+
+
+  .twelfth {
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/classbgsp.jpg);
+    height:962px;
+  }
+  .twelfth-title {
+    color:#ffff;
+    padding-top:30px;
+    margin-bottom:30px;
+    letter-spacing:2px;
+  }
+  .twelfth-title h2 {
+    font-size:18px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+  .twelfth-title p {
+    font-size:12px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+  .twelfth-tables {
+    margin:0 auto;
+    width:780px;
+    max-width:95%;
+  }
+  .twelfth-tables-container {
+    flex-direction:column;
+  }
+  .twelfth-table {
+    width:100%;
+    letter-spacing:3px;
+  }
+  .t-t-1 {
+    height:465px;
+    margin-bottom:15px;
+  }
+  .t-t-2 {
+    height:305px
+  }
+  .twelfth-table-th {
+    font-size:15px;
+    line-height:55px;
+  }
+  .twelfth-table-td {
+    font-size:12px;
+    line-height:39px;
+  }
+
+  .thirteenth {
+    background-color:#006EA9;
+    text-align:center;
+    position:relative;
+    height:75px;
+    padding-bottom:15px;
+  }
+  .thirteenth div {
+    position:absolute;
+    top:3%;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width:95%;
+  }
+  .thirteenth p{
+    font-size:15px;
+   }
+
+   .fouteenth {
+    height:435px;
+    text-align:center;
+    padding-top:30px;
+  }
+  .fouteenth h2{
+    font-size:18px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    letter-spacing:2px;
+    margin-bottom:40px;
+  }
+   .fouteenth-img {
+     display:none;
+   }
+   .fouteenth-blocks {
+     display:none;
+  }
+  .fouteenth-faq {
+    display:block;
+  }
+  .fouteenth-q-img {
+    width:35px;
+    height:35px;
+    padding:5px;
+  }
+  .fouteenth-faq-list-item {
+    background-color:#FEF5DF;
+     border-radius:5px;
+     margin:5px;
+  }
+  .fouteenth-question {
+    padding:2px 2px;
+    line-height:20px;
+    border-radius:5px;
+  }
+  .fouteenth-q-sp {
+    display:inline-block;
+    position:absolute;
+    top:20px;
+    left:60px;
+    font-size:15px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    color:#333333;
+  }
+  .fouteenth-fa {
+    font-weight:600;
+    color:#333333;
+  }
+  .fouteenth-faq-list {
+    max-width: calc(100% - 70px);
+  }
+  .fouteenth-faq-list-item p {
+    font-size:12px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    margin-bottom:10px;
+  }
+
+
+
+  .fifteenth {
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbgsp.jpg);
+    height:320px;
+    padding-bottom:12%;
+  }
+  .fifteenth-text {
+    max-width:95%;
+    padding-top:25px;
+    text-align:center;
+  }
+  .fifteenth-text-2 {
+    text-align:left;
+    font-size:12px;
+    margin-bottom:30px;
+  }
+  .fifteenth-text-3 {
+    text-align:left;
+    font-size:12px;
+  }
+  .fifteenth-text-3 li {
+    margin-bottom:10px;
+  }
+  .fifteenth-text-4 {
+    text-align:left;
+    font-size:15px;
+    margin-top:20px;
+  }
+
+  .sixteenth {
+    height:560px;
+    padding-top:15px;
+    letter-spacing:1.5px;
+  }
+  .sixteenth-title {
+    font-size:18px;
+    margin-bottom:30px;
+  }
+  .sixteenth-text {
+    margin-bottom:45px;
+    font-size:12px;
+  }
+  .sixteenth-boxes-title {
+    width:230px;
+    font-size:18px;
+    padding-right:5px;
+    padding-left:5px;
+    margin-bottom:-50px;
+  }
+  .sixteenth-boxes {
+    /* height:360px; */
+  }
+  .sixteenth-boxes-container {
+    display:none;
+  }
+  .sixteenth-boxes-container-2 {
+    height:280px;
+    padding:30px;
+    display:flex;
+    align-content:center;
+    justify-content:space-around;
+    flex-direction:column;
+  }
+  .sixteenth-boxes-2 {
+    display:flex;
+  }
+  .sixteenth-boxes-2-left {
+    background-color:#ffffff;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    color:#ebb94d;
+    font-size:12px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    line-height:30px;
+    margin-right:30px;
+  }
+  .sixteenth-boxes-2-right {
+    color:#ffffff;
+    font-size:12px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    width:75%;
+    text-align:left;
+  }
+  .sixteenth-boxes-2 {
+
+  }
+
+  .seventeenth {
+    background-image:url(https://isara.life/wp-content/themes/isara_v2/img/specialdetailsp.jpg);
+    height:460px;
+    margin-bottom:0;
+    padding-top:25px;
+    letter-spacing:3px;
+  }
+  .seventeenth-title  {
+    text-align:center;
+    max-width:90%;
+    height:75px;
+    padding:10px;
+    font-size:12px;
+    line-height:28px;
+    margin-bottom:27px;
+  }
+  
+  .seventeenth-title::before, .seventeenth-title::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+  }
+  .seventeenth-kesu {
+    display:none;
+  }
+  .seventeenth-1 {
+    font-size:18px;
+    margin-bottom:30px;
+  }
+  .seventeenth-2 {
+    font-size:12px;
+    margin-bottom:40px;
+  }
+  .seventeenth-3 {
+    font-size:12px;
+    font-weight:600;
+  }
+
+
+  .eighteenth {
+    height:900px;
+  }
+  .eighteenth h2 {
+    font-size:18px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    padding-top:30px;
+    margin-bottom:45px;
+    letter-spacing:3px;
+  }
+  .eighteenth-title-p {
+    font-size:15px;
+    font-weight:700;
+    font-family:"Hiragino Kaku Gothic Pro";
+    letter-spacing:3px;
+  }
+  .eighteenth-boxes {
+    margin:0 auto;
+    width:1025px;
+    max-width:93%;
+    padding-top:5px;
+  }
+  .eighteenth-boxes-container {
+    display:flex;
+    flex-direction:column;
+  }
+  .eighteenth-box-left {
+    text-align:left;
+    width:100%;
+  }
+  .eighteenth-box-left img{
+    width:100%;
+  }
+  .eighteenth-box-right {
+    text-align:left;
+    font-size:13px;
+    font-weight:400;
+    font-family:"Hiragino Kaku Gothic Pro";
+    color:#000000;
+  }
+
+
+  .nineteenth {
+    height:650px;
+    background-color:#EBB94D;
+    text-align:center;
+    padding-top:40px;
+  }
+  .nineteenth h2 {
+    font-size:18px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+    margin-bottom:20px;
+    letter-spacing:2px;
+  }
+  .nineteenth i {
+    color:#333333;
+    margin-right:3px;
+  }
+  .nineteenth p {
+    margin-bottom:35px;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:2px;
+  }
+  .nineteenth-boxes {
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    width:865px;
+    max-width:90%;
+  }
+  .nineteenth-form {
+    height:54px;
+    margin-bottom:25px;
+    border-radius:5px;
+    font-size:14px;
+  }
+  .nineteenth textarea {
+    margin-top:25px;
+    height:103px;
+    font-size:14px;
+  }
+  .contact-submit {
+    background-color:#D96B64;
+    color:#ffff;
+    height:55px;
+    margin-top:40px;
+    font-size:25px;
+    letter-spacing:10px;
+    border-radius:50px;
+  }
+  ::placeholder {
+    font-size:14px;
+    font-weight:400;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+
+
+
+
+  .twenty {
+    height:780px;
+    padding-top:27px;
+  }
+  .twenty-heading {
+    font-size:13px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+  .twenty-faq-list-item {
+    margin:5px;
+  }
+  .twenty-faq-list-item h3{
+    font-size:15px;
+    font-weight:600;
+    font-family:"Hiragino Kaku Gothic Pro";
+  }
+  .twenty-question-res {
+    padding:7px 7px;
+  }
+  .twenty-faq-list-item .fa-angle-down,.twenty-faq-list-item .fa-angle-up {
+    position:absolute;
+    top:10px;
+    font-weight:600;
+  }
+  .twenty-answer {
+    font-size:12px;
+    font-weight:600;
+
+  }
+
+
+
+  footer {
+    height:100px;
+    padding-top:10px;
+    letter-spacing:3px;
+  }
+
+
+  .pagetop {
+    cursor:pointer;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background-color:#ececec;
+    padding:15px 15px;
+    opacity:0.9;
+    transition:all 1s;
+  }
+  .fa-chevron-up {
+    font-size:15px;
+  }
+}
